@@ -9,7 +9,7 @@
   "dependencies": [
     "base >= 2.0.26",
     "space-age >= 2.0.26",
-    "maraxis >= 1.30.5"
+    "maraxsis"
   ],
   "quality_required": true,
   "rail_bridges_required": false,
