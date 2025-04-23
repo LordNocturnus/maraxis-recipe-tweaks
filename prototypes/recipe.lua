@@ -12,7 +12,7 @@ data:extend {{
         {type = "fluid", name = "oxygen",   amount = 100},
         {type = "fluid", name = "hydrogen", amount = 200},
     },
-    category = "maraxsis-hydro-plant",
+    category = "maraxsis-hydro-plant-or-chemistry",
     icon = "__maraxsis__/graphics/icons/saline-electrolysis.png",
     icon_size = 64,
     auto_recycle = false,
