@@ -48,3 +48,29 @@ data:extend({
     order = "a"
   },
 })
+
+data:extend({
+  {
+    type = "technology",
+    name = "maraxsis-coral-growth",
+    icon = "__maraxsis__/graphics/icons/coral-1.png",
+    icon_size = 256,
+    prerequisites = {"hydraulic-science-pack"},
+    unit = {
+      count = 1000,
+      ingredients = {
+        {"space-science-pack", 1},
+        {"metallurgic-science-pack", 1},
+        {"hydraulic-science-pack", 1},
+      },
+      time = 30
+    },
+    effects = {
+      {
+        type = "unlock-recipe",
+        recipe = "maraxsis-coral-growth"
+      }
+    },
+    order = "a"
+  },
+})
