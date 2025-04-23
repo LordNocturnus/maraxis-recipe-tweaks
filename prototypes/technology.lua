@@ -19,3 +19,32 @@ data:extend({
     order = "a"
   },
 })
+
+data:extend({
+  {
+    type = "technology",
+    name = "maraxsis-fish-breeding",
+    icon = "__maraxsis__/graphics/icons/tropical-fish.png",
+    icon_size = 256,
+    prerequisites = {
+      "hydraulic-science-pack",
+      "fish-breeding"
+    },
+    unit = {
+      count = 1000,
+      ingredients = {
+        {"space-science-pack", 1},
+        {"agricultural-science-pack", 1},
+        {"hydraulic-science-pack", 1},
+      },
+      time = 30
+    },
+    effects = {
+      {
+        type = "unlock-recipe",
+        recipe = "maraxsis-fish-breeding"
+      }
+    },
+    order = "a"
+  },
+})
