@@ -3,7 +3,7 @@ data:extend({
     type = "technology",
     name = "salt-catalysed",
     icon = "__maraxsis__/graphics/icons/salt-2.png",
-    icon_size = 256,
+    icon_size = 64,
     prerequisites = {"maraxsis-hydro-plant"},
     research_trigger = {
       type = "craft-item",
@@ -54,7 +54,7 @@ data:extend({
     type = "technology",
     name = "maraxsis-coral-growth",
     icon = "__maraxsis__/graphics/icons/coral-1.png",
-    icon_size = 256,
+    icon_size = 64,
     prerequisites = {"hydraulic-science-pack"},
     unit = {
       count = 1000,
