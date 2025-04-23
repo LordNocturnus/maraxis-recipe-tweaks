@@ -45,7 +45,7 @@ data:extend {{
     surface_conditions = {{
         property = "pressure",
         min = 200000,
-        max = 400000,
+        max = 200000,
     }},
     main_product = "maraxsis-tropical-fish",
 }}
