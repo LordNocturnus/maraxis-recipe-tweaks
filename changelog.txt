@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2025-04-23
+  Features:
+    - added a coral seeding recipe that requires shipping calcite to Maraxsis
+    - added a faster recipe for salt electrolysis using superconductors
+    - added a tropical fish breeding recipe that requires a constant supply of nauvis fish to be sent to maraxsis
+  Balancing:
+    - allowed Superconducting electrolysis in chemical plants
+    - moved tropical fish breeding out of the trench to prevent fish from getting crushed
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2025-04-23
   Bugfixes:
