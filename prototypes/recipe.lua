@@ -55,6 +55,7 @@ data:extend {{
     name = "maraxsis-coral-growth",
     enabled = false,
     energy_required = 6,
+    result_is_always_fresh=true,
     ingredients = {
         {type = "fluid", name = "maraxsis-saline-water",  amount = 100},
         {type = "item",  name = "maraxsis-coral",         amount = 1},
@@ -62,7 +63,7 @@ data:extend {{
         {type = "item",  name = "calcite",                amount = 20},
     },
     results = {
-        {type = "item",  name = "maraxsis-coral", amount=3, ignored_by_stats=1, ignored_by_productivity=1, percent_spoiled=0},
+        {type = "item",  name = "maraxsis-coral", amount=3, ignored_by_stats=1, ignored_by_productivity=1},
     },
     category = "maraxsis-hydro-plant",
     icon = "__maraxsis__/graphics/icons/coral-1.png",
